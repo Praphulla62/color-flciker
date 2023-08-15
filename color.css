@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    position: sticky;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+span {
+    font-size: 2rem;
+}
+
+.nav-bar {
+    height: 10vh;
+    display: flex;
+    border: 2px solid black;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.options span {
+    margin: 5px 20px 5px 20px;
+
+}
+
+.options span:hover {
+    cursor: pointer;
+    color: rgb(58, 114, 255);
+    transition: 110ms ease-in-out;
+    background-color: black;
+    
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+
+button {
+    display: flex;
+    font-size: 1.5rem;
+
+}
+
+.item {
+    margin: 20px;
+    padding: 15px
+}
+
+.after-touch{
+    text-decoration: underline;
+    color: rgb(58, 114, 255);
+}
